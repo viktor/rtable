@@ -1,4 +1,4 @@
-# rtable
+# RecyclerViewTable (rtable)
 
 Component implements a recyclerview, shows table headers and also has pagination.
 
