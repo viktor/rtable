@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-rtable.iml" filepath="$PROJECT_DIR$/android-rtable.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rtable/rtable.iml" filepath="$PROJECT_DIR$/rtable/rtable.iml" />
-      <module fileurl="file://$PROJECT_DIR$/viktor_grid_recycler.iml" filepath="$PROJECT_DIR$/viktor_grid_recycler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtable/rtable-rtable.iml" filepath="$PROJECT_DIR$/rtable/rtable-rtable.iml" />
     </modules>
   </component>
 </project>
