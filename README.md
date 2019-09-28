@@ -10,6 +10,17 @@ Component implements a recyclerview, shows table headers and also has pagination
 
 ### How to use
 
+Add in repository section (project gradle file)
+
+        maven { url "https://jitpack.io" }
+
+Component only works with androidx, add the following libs:
+
+    implementation "androidx.appcompat:appcompat:1.0.0-alpha3"
+    implementation "androidx.recyclerview:recyclerview:1.0.0-alpha3"
+    implementation 'com.github.viktor:rtable:1.0.0'
+
+
 Add the xml element in your activity layout:
 
        <com.viktor.rtable.RecyclerViewTable
@@ -46,6 +57,9 @@ Configure the component in your activity class:
 OnRowClicked is optional. Also u need to convert the collection of java beans to (List) 
 just cast the list. Specify the position of every bean field. 
 
+See the example project here:
+
+https://github.com/viktor/rtable-example
 
 ### Styling 
 
