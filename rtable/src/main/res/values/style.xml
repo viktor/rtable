@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RTableHeaderTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/rtable_primaryColor</item>
+        <item name="android:textColor">@color/rtable_header_textColor</item>
+        <item name="android:textSize">@dimen/rtable_header_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RTableContentTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background"></item>
+        <item name="android:textColor">@color/rtable_content_textColor</item>
+        <item name="android:textSize">@dimen/rtable_row_content_textSize</item>
+    </style>
+
+    <style name="RTableFooterTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/rtable_primaryColor</item>
+    </style>
+
+</resources>

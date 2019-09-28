@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/grid_recycler_header"
+        android:layout_height="wrap_content"
+        android:theme="@style/RTableHeaderTheme"
+        android:paddingLeft="@dimen/rtable_header_padding"
+        android:paddingRight="@dimen/rtable_header_padding"
+        />
+
+    <TextView
+        android:id="@+id/rtable_no_data_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:text="No Data"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_weight=".80"
+        android:id="@+id/grid_recycler_content"
+        android:paddingLeft="@dimen/rtable_row_padding"
+        android:paddingRight="@dimen/rtable_row_padding"
+        android:theme="@style/RTableContentTheme"
+        />
+
+    <LinearLayout
+        android:id="@+id/grid_recycler_footer"
+        android:layout_height="@dimen/rtable_footer_height"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:theme="@style/RTableFooterTheme"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/click_dtable_before_"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/rtable_left_row"
+            android:layout_marginRight="25dp"
+            />
+
+        <ImageView
+            android:id="@+id/click_dtable_after"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/rtable_right_row"/>
+
+    </LinearLayout>
+
+</LinearLayout>

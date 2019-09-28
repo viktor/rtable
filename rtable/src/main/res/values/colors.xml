@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rtable_primaryColor">#FF0000</color>
+    <color name="rtable_header_textColor">#ffffff</color>
+    <color name="rtable_footer_textColor">#ffffff</color>
+    <color name="rtable_content_textColor">#000000</color>
+</resources>
+

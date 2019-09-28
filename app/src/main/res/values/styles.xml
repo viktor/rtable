@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Properties are set from the Material Drawer Builder -->
+    <style name="CustomDrawerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/rtable_primaryColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarThemeStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/md_white_1000</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="actionMenuTextColor">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/md_white_1000</item>
+        <item name="android:background">@color/rtable_primaryColor</item>
+    </style>
+
+    <style name="NoActionBarCustomStyle" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+</resources>
