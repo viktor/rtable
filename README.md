@@ -2,6 +2,12 @@
 
 Component implements a recyclerview, shows table headers and also has pagination.
 
+### Screenshots
+
+<img src="https://raw.githubusercontent.com/viktor/rtable/master/app/screenshots/Screenshot_2019-09-28-02-03-53.png" width="180px" height="250px" />
+
+<img src="https://raw.githubusercontent.com/viktor/rtable/master/app/screenshots/Screenshot_2019-09-28-02-04-15.png" width="180px" height="250px" />
+
 ### How to use
 
 Add the xml element in your activity layout:
